@@ -16,6 +16,15 @@
       "category": "Alimentação",
       "price": 50,
       "createdAt": "2025-01-15T15:50:20.233Z"
+    },
+
+    {
+      "id": 3,
+      "description": "Uber",
+      "type": "outcome",
+      "category": "Transporte",
+      "price": 25,
+      "createdAt": "2025-01-15T15:50:20.233Z"
     }
   ]
 }
