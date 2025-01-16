@@ -25,6 +25,15 @@
       "category": "Transporte",
       "price": 25,
       "createdAt": "2025-01-15T15:50:20.233Z"
+    },
+
+    {
+      "id": 4,
+      "description": "Compra de câmeras novas",
+      "type": "outcome",
+      "category": "Manutenção",
+      "price": 4300,
+      "createdAt": "2025-01-15T15:50:20.233Z"
     }
   ]
 }

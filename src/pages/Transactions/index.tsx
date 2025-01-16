@@ -25,7 +25,7 @@ export function Transactions() {
               return (
                 <tr key={transaction.id}>
                   <td width="50%">{transaction.description}</td>
-                  <PriceHighLight variant="income">
+                  <PriceHighLight variant={transaction.type}>
                     {transaction.price}
                   </PriceHighLight>
                   <td>{transaction.category}</td>
