@@ -15,54 +15,6 @@
       "category": "Alimentação",
       "price": 50,
       "createdAt": "2025-01-15T15:50:20.233Z"
-    },
-    {
-      "id": 3,
-      "description": "Uber",
-      "type": "outcome",
-      "category": "Transporte",
-      "price": 25,
-      "createdAt": "2025-01-15T15:50:20.233Z"
-    },
-    {
-      "id": 4,
-      "description": "Compra de câmeras novas",
-      "type": "outcome",
-      "category": "Manutenção",
-      "price": 4300,
-      "createdAt": "2025-01-15T15:50:20.233Z"
-    },
-    {
-      "description": "Desenvolvimento de app",
-      "price": 10000,
-      "category": "Venda",
-      "type": "income",
-      "createdAt": "2025-01-17T00:50:17.985Z",
-      "id": 5
-    },
-    {
-      "description": "Academia",
-      "price": 100,
-      "category": "Saúde",
-      "type": "outcome",
-      "createdAt": "2025-01-17T01:12:09.420Z",
-      "id": 6
-    },
-    {
-      "description": "Uber para o trabalho",
-      "price": 27,
-      "category": "Transporte",
-      "type": "outcome",
-      "createdAt": "2025-01-17T22:12:30.636Z",
-      "id": 7
-    },
-    {
-      "description": "Academia",
-      "price": 130,
-      "category": "Saúde",
-      "type": "outcome",
-      "createdAt": "2025-01-17T22:28:19.640Z",
-      "id": 8
     }
   ]
 }

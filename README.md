@@ -1,50 +1,54 @@
-# React + TypeScript + Vite
+# **DT Money**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto foi desenvolvido durante o curso **_Ignite_** da **Rocketseat**, com o objetivo de criar uma aplicação de **controle financeiro pessoal**. O foco foi aplicar **boas práticas de desenvolvimento** e utilizar **tecnologias modernas** para criar interfaces funcionais e intuitivas.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 **Tecnologias Usadas**
 
-## Expanding the ESLint configuration
+### **Frontend**
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **React**: Biblioteca JavaScript para construção de **interfaces modernas**.
+- **TypeScript**: Para **tipagem estática** e maior **segurança** no desenvolvimento.
+- **Styled-Components**: Biblioteca para estilização dinâmica com **componentização**.
+- **Vite**: Ferramenta para **build rápida** e **desenvolvimento ágil**.
 
-- Configure the top-level `parserOptions` property like this:
+### **Backend**
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- **JSON-Server**: Simulação de uma API para gerenciar os dados das transações.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+### **Outras Ferramentas e Bibliotecas**
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+- **React Hook Form**: Para **manipulação de formulários** com validação eficiente.
+- **Zod**: Validação de dados e estruturação dinâmica de **schemas**.
+- **Context API**: Gerenciamento de estados globais de forma **eficiente**.
+- **ESLint e Prettier**: Garantia de **qualidade** e **consistência** no código.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+---
+
+## ⚙️ **Funcionalidades**
+
+- **📈 Cadastro de Transações**: Registre entradas e saídas financeiras detalhadas.
+- **🔍 Busca de Transações**: Filtro por descrição utilizando o **searchParams**.
+- **💰 Cálculo de Saldo**: Exibição de entradas, saídas e saldo total.
+- **📱 Interface Responsiva**: Layout adaptado para **desktop** e **dispositivos móveis**.
+
+---
+
+## 🎯 **Objetivos**
+
+- Consolidar o uso de **React** e **Styled-Components** na criação de interfaces.
+- Trabalhar com **APIs simuladas** utilizando **JSON-Server**.
+- Aplicar **Context API** para gerenciar dados globais.
+- Implementar validações eficientes com **React Hook Form** e **Zod**.
+
+---
+
+## 🖼 **Layout do Projeto**
+
+**Dashboard com Resumo Financeiro**  
+![Resumo Financeiro](./src/assets/transactions.png)
+
+**Criação de novas transações**  
+![Tabela de Transações](./src/assets/newTransactionModal.png)
+
