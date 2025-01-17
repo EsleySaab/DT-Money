@@ -47,6 +47,22 @@
       "type": "outcome",
       "createdAt": "2025-01-17T01:12:09.420Z",
       "id": 6
+    },
+    {
+      "description": "Uber para o trabalho",
+      "price": 27,
+      "category": "Transporte",
+      "type": "outcome",
+      "createdAt": "2025-01-17T22:12:30.636Z",
+      "id": 7
+    },
+    {
+      "description": "Academia",
+      "price": 130,
+      "category": "Saúde",
+      "type": "outcome",
+      "createdAt": "2025-01-17T22:28:19.640Z",
+      "id": 8
     }
   ]
 }
